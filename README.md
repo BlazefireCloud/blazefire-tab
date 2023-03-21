@@ -7,6 +7,13 @@
 # Blazefire Tablet
 A simple yet another tablet for FiveM. The background as well as the tablet is changeable as well as anything else in this repository. Feel free to change anything you want.
 
+## Used technology
+* JavaScript
+* HTML
+* CSS
+* TailwindCSS
+* LUA
+
 ## How to use?
 Download the repo and put the script into your server resources. Edit the config to your liking and start the script. Done!
 
