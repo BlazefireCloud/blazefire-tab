@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blazefire Tab</title>
+    <link href="css/output.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css" integrity="sha512-cHxvm20nkjOUySu7jdwiUxgGy11vuVPE9YeK89geLMLMMEOcKFyS2i+8wo0FOwyQO/bL8Bvq1KMsqK4bbOsPnA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/solid.min.css" integrity="sha512-bdTSJB23zykBjGDvyuZUrLhHD0Rfre0jxTd0/jpTbV7sZL8DCth/88aHX0bq2RV8HK3zx5Qj6r2rRU/Otsjk+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="!overflow-hidden">
+    <!-- DO NOT DELETE THE ELEMENT BELOW! IT IS REQUIRED IN ORDER FOR TAILWIND TO COMPILE THOSE CLASSES. -->
+    <div class="hidden mr-4 mb-4 p-4 bg-gray-500 rounded-lg hover:bg-gray-700 cursor-pointer transition-all content-item"></div>
+    <div class="h-screen w-screen p-32" id="tablet" style="display: none;">
+        <div class="absolute translate-x-[-50%] translate-y-[-50%] left-[50%] top-[50%] w-[1200px] h-[830px] bg-contain p-2" style="background: url('./images/tablet.svg') center center no-repeat;">
+            <div id="homescreen" class="w-full h-full px-12 py-8 text-white" style="background: url('./images/background.svg') center center no-repeat;">
+                <div class="flex flex-wrap items-start w-full" id="content"></div>
+            </div>
+            <div class="w-full h-full" style="padding-left: 0.4rem; padding-right:0.4rem; padding-top: 0.3rem; padding-bottom: 0.3rem; display: none" id="app-wrapper">
+                <i id="closeApp" class="fas fa-times absolute top-10 right-10 text-white text-2xl cursor-pointer"></i>
+                <iframe class="w-full h-full bg-black" id="app-content" style="border-radius: 1.9rem;"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/script.js" defer></script>
+
+</html>
